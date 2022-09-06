@@ -1,0 +1,9 @@
+h1{
+    color: red;
+    border: 10px outset rgba(233, 225, 225, 0.445);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    background-color: black;
+    font-size: 150px;
+}
