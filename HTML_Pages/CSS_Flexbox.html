@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_flexbox</title>
+    <style>
+        section{
+            display: flex;
+            /* flex-direction: column-reverse;it reverse the conntent present ther int he box and arange into the column in reverse order */
+            width: 80%;
+
+            height: 1300px;
+            justify-content: space-around;    
+            /* align-items:center; */
+            /* align-content: stretch; it fit the bix in end to end width inside */
+            /* row-gap:50px it privde the gap between the two or more contant */
+           
+        
+            border: 5px black solid;
+            background-color: aqua;
+          
+             /* flex-wrap: wrap;if there is no space peresent there in sigle line...it auto go to next line to fit content/ */
+        }
+        div{
+            height: 200px;
+            width: 20%;
+            border: 2px black solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* flex-shrink: 1;  */
+        }
+       
+        /* div:nth-of-type(){ */
+            /* flex-grow: 1; */ /* Flex-grow:1 all remaining spaces are provided to the at perticular box*/
+/* flex-shrink: 1; */
+        /* } */
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1>CSS FlexBox</h1>
+
+    <section>
+        <div style="background-color:red">1</div>
+        <div style="background-color:rgb(47, 0, 255)">2</div>
+        <div style="background-color:rgb(0, 255, 115)">3</div>
+        <div style="background-color:rgb(0, 255, 51)">4</div>
+        <div style="background-color:rgb(255, 204, 0)">5</div>
+    
+    </section>
+    
+</center>
+</body>
+</html>
