@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_flexbox</title>
+    <style>
+        section{
+            display: flex;
+            /* flex-direction: column-reverse;it reverse the conntent present ther int he box and arange into the column in reverse order */
+            width: 100%;
+
+            height: 1300px;
+            justify-content: space-around;    
+            /* align-items:center; */
+            /* align-content: stretch; */
+            /* row-gap:50px it privde the gap between the two or more contant */
+           
+        
+            border: 5px black solid;
+            background-color: aqua;
+          
+             /* flex-wrap: wrap;if there is no space peresent there in sigle line...it auto go to next line to fit content/ */
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            height: 100px;
+            width: 20%;
+            border: 2px black solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            /* flex-shrink: 1;  */
+        }
+       
+        /* div:nth-of-type(){ */
+            /* flex-grow: 1; */ /* Flex-grow:1 all remaining spaces are provided to the at perticular box*/
+/* flex-shrink: 1; */
+        /* } */
+        div:hover{
+            background-color: black;
+            color: aliceblue;
+            transition: 1s;
+        }
+        @media screen and (max-width:700px){
+            section{
+                display:flex;
+                flex-direction: column;
+                /* align-items: flex-end; */
+                justify-content: start;
+                
+                
+            }
+            div{
+
+                margin-bottom: 20px;
+                width: 100%;
+
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+
+    <section>
+        <div >HOME</div>
+        <div >SERVICES</div>
+        <div >ABOUT</div>
+        <div >DETAILS</div>
+        <div >LOCATION</div>
+    
+    </section>
+    
+</center>
+</body>
+</html>
