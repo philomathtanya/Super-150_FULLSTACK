@@ -1,0 +1,33 @@
+.box{
+    width: 500px;
+    height: 100px;
+    background-color: pink;
+    animation-name: slider;
+    animation-duration: 2s;
+    /* animation-direction: reverse;//animation starts from the end 100% */
+    /* animation-iteration-count: infinite; *//*used to provide infinite animation*/
+    /* animation-play-state: running;
+    animation-play-state: paused; */ /*used in javascript  to start and paused animation by button*/
+    /* animation-fill-mode: forwards; *//* animation will stop at last position of the animation*/
+    /* animation-fill-mode: backwards; stop  animation at the first position */
+    /* animation-delay: 5s; animation is delay with 5s */
+    animation-timing-function: ease-out;
+}
+@keyframes slider{
+    25%{
+        width: 300px;
+        height: 200px;
+    }
+    50%{
+        width: 700px;
+        height: 150px;
+    }
+    70%{
+        width: 200px;
+        height: 500px;
+    }
+    100%{
+        width: 1000px;
+        height: 500px;
+    }
+}
