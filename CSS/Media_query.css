@@ -1,0 +1,87 @@
+#box{
+    width: 60%;
+    background-color: aqua;
+    border: 5px black solid;
+    padding: 20px; margin-top: 10%;
+}
+p{
+    font-size: x-large;
+    
+    
+}
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
+    background-color: rgb(195, 0, 255);
+}
+/* @media screen and (max-width:700px){
+    #box{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,71,1) 43%, rgba(0,212,255,1) 100%);
+
+
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+    }
+    section{
+        background-color: blue;
+    }
+
+    
+} */
+/* @media screen and (min-width:300px) and (max-width:700px){
+    #box{
+        background-color: pink;
+
+
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+    }
+    section{
+        background-color: blue;
+    }
+
+    
+} */
+/* @media screen and (min-width:300px) and (orientation:landscape){
+    #box{
+       background-color: pink;
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+    }
+    section{
+        background-color: blue;
+    }
+
+    
+} */
+/* @media screen and (0px<width<500px){
+    #box{
+        background-color: pink;
+
+
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+    }
+    section{
+        background-color: blue;
+    }
+
+    
+} */
+*{
+    
+    padding: 0;
+    margin: 0;
+}
